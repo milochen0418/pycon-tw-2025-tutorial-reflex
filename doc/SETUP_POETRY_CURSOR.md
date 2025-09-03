@@ -8,6 +8,11 @@ When you have a reflex project, you wanto to use poetry and cursor for it, you c
 - poetry run reflex init
 - poetry run reflex run 
 
+## change reflex version to fit some example from github
+If the example is not compatible to your current reflex version, you can check reflex version 
+- poetry run reflex --version 
+and than instal what version you want by 
+- poetry add reflex==0.7.11
 
 # Setup AI Cursor for this poetry environment 
 - Command for get virtual environment managed by poetry 
