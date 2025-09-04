@@ -4,7 +4,7 @@ When you have a reflex project, you wanto to use poetry and cursor for it, you c
 # Poetry way to run downloaded project from AI builder of reflex 
 - poetry init --python ">=3.10,<4.0"
 - poetry add $(cat requirements.txt)
-- poetry install 
+- poetry install --no-root
 - poetry run reflex init
 - poetry run reflex run 
 

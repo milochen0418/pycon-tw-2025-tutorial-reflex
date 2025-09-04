@@ -171,8 +171,8 @@ class State(rx.State):
         if self._temp_dir is None:
             self._temp_dir = tempfile.mkdtemp()
 
-        outfile = Path(self._temp_dir) / file.filename
-        self.pdf_filename = file.filename
+        outfile = Path(self._temp_dir) / file.name
+        self.pdf_filename = file.name
 
         with outfile.open("wb") as file_object:
             file_object.write(upload_data)
