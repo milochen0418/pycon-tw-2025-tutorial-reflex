@@ -10,7 +10,6 @@
 **/package.json
 *.db
 *.py[cod]
-.vscode
 .web
 __pycache__/
 assets/external/
